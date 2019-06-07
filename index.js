@@ -12,13 +12,13 @@ function submitData(name, email) {
             email: `${email}`
         })
     })
-    .then ( function (resp) {
+    .then ( resp => {
         return resp.json()
     })
-    .then (function (obj) {
+    .then ( obj => {
         document.body.innerHTML = obj["id"]
     })
-    .catch ( function (error ) {
+    .catch ( error => {
         document.body.innerHTML = error.message
     })
 }
