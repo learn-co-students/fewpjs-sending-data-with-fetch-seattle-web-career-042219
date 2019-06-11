@@ -23,19 +23,3 @@ function submitData(name, email) {
     document.body.innerHTML = error.message
   })
 }
-  // })
-//   // return fetch('http://localhost:3000/users', {
-//   //   method: "Post",
-//   //   headers: {
-//   //     "Content-Type": "application/json",
-//   //     "Accept": "application/json"
-//   //   },
-//     .then(response => response.json())
-//     .then(json => {
-//       console.log(json)
-//     })
-//     // .catch(error => {
-//     // console.log(error.message)
-//     // })
-//   }
-// }
